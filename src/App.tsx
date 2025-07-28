@@ -1,5 +1,13 @@
+import { Animation } from "./Animation";
+import { WebWorkerUpload } from "./WebWorkerUpload";
+
 function App() {
-  return <h1>Hello, World!</h1>;
+  return (
+    <div>
+      <WebWorkerUpload />
+      <Animation />
+    </div>
+  );
 }
 
 export default App;
